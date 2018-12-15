@@ -6,7 +6,7 @@ body {
 }
 
 .font_metal {
-    font-family: 'Metal Mania', cursive;
+    font-family: 'Righteous', sans-serif;
 }
 
 .bck_black {
@@ -71,16 +71,16 @@ footer .footer_copyright {
 }
 
 /*====================
-        CARROUSEL
+        CAROUSEL
 ======================*/
 
 
-.carrousel_wrapper {
+.carousel_wrapper {
     height:700px;
     overflow: hidden;
 }
 
-.carrousel_image {
+.carousel_image {
     
     background-size: cover !important;
 }
@@ -102,7 +102,7 @@ footer .footer_copyright {
     margin: 6px;
     text-align: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 45px;
     padding: 21px 70px 0px 70px;
     text-transform: uppercase;
 }
