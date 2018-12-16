@@ -6,7 +6,7 @@ import TicketIcon from '../../resources/images/icons/ticket.png'
 const MyButton = (props) => {
     return (
         <Button
-            href="http://www.google.co.uk"
+            href={props.link}
             variant="contained"
             size="small"
             style={{

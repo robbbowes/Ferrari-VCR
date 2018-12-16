@@ -14,18 +14,18 @@ const VenueInfo = () => {
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
-                                    <div className="vn_icon_square bck_red"></div>
+                                    <div className="vn_icon_square bck_yellow"></div>
                                     <div
                                         className="vn_icon"
                                         style={{
-                                            background: `url(${icon_calendar})`
+                                            background: `url(${icon_location})`
                                         }}
                                     ></div>
                                     <div className="vn_title">
-                                        Gig Date & Time
+                                        Destination
                                     </div>
                                     <div class="vn_desc">
-                                        31 Dec 1984 @23:59
+                                        Miami Beach 1984, Miami, FL
                                     </div>
                                 </div>
                             </div>
@@ -36,18 +36,18 @@ const VenueInfo = () => {
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
-                                    <div className="vn_icon_square bck_yellow"></div>
+                                    <div className="vn_icon_square bck_red"></div>
                                     <div
                                         className="vn_icon"
                                         style={{
-                                            background: `url(${icon_location})`
+                                            background: `url(${icon_calendar})`
                                         }}
                                     ></div>
                                     <div className="vn_title">
-                                        Gig Location
+                                        Destination
                                     </div>
                                     <div class="vn_desc">
-                                        Miami Beach 1984, Miami, FL
+                                        31 Dec 1983 11:59 PM
                                     </div>
                                 </div>
                             </div>

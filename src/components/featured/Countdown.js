@@ -4,7 +4,7 @@ import Slide from 'react-reveal/Slide';
 class Countdown extends Component {
 
     state = {
-        nextGig: 'Dec 31 1984 23:59:59 GMT',
+        nextGig: 'Dec 31 1983 23:59:59 GMT',
         years: '0',
         days: '0',
         hours: '0',
@@ -15,9 +15,7 @@ class Countdown extends Component {
     getTimeUntil(nextGig) {
         const time = Date.parse(new Date()) - Date.parse(nextGig)
         console.log(time)
-        if (time < 0) {
-            console.log('Date passed')
-        } else {
+        if (time > 0) {
             const seconds = Math.floor((time/1000)%60)
             const minutes = Math.floor((time/1000/60)%60)
             const hours = Math.floor((time/(1000*60*60))%24)
