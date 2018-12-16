@@ -4,7 +4,8 @@ import Slide from 'react-reveal/Slide';
 class Countdown extends Component {
 
     state = {
-        nextGig: 'Dec 30 2018 22:00:00 GMT',
+        nextGig: 'Dec 31 1984 23:59:59 GMT',
+        years: '0',
         days: '0',
         hours: '0',
         minutes: '0',
@@ -12,7 +13,7 @@ class Countdown extends Component {
     }
 
     getTimeUntil(nextGig) {
-        const time = Date.parse(nextGig) - Date.parse(new Date())
+        const time = Date.parse(new Date()) - Date.parse(nextGig)
         console.log(time)
         if (time < 0) {
             console.log('Date passed')
@@ -20,9 +21,11 @@ class Countdown extends Component {
             const seconds = Math.floor((time/1000)%60)
             const minutes = Math.floor((time/1000/60)%60)
             const hours = Math.floor((time/(1000*60*60))%24)
-            const days = Math.floor(time/(1000*60*60*24))
+            const days = Math.floor(time/(1000*60*60*24)%365.25)
+            const years = Math.floor(time/(1000*60*60*24*365.25))
 
             this.setState({
+                years,
                 days,
                 hours,
                 minutes,
@@ -41,9 +44,17 @@ class Countdown extends Component {
                 <div>
                     <div className="countdown_wrapper">
                         <div className="countdown_top">
-                            Next event
+                            Take Me Back To 1984
                         </div>
                         <div className="countdown_bottom">
+                        <div className="countdown_item">
+                                <div className="countdown_time">
+                                    {this.state.years}
+                                </div>
+                                <div className="countdown_tag">
+                                    Years
+                                </div>
+                            </div>
                             <div className="countdown_item">
                                 <div className="countdown_time">
                                     {this.state.days}

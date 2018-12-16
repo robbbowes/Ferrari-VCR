@@ -22,10 +22,10 @@ const VenueInfo = () => {
                                         }}
                                     ></div>
                                     <div className="vn_title">
-                                        Event Date & Time
+                                        Gig Date & Time
                                     </div>
                                     <div class="vn_desc">
-                                        30 Dec 2018 @22:00
+                                        31 Dec 1984 @23:59
                                     </div>
                                 </div>
                             </div>
@@ -44,10 +44,10 @@ const VenueInfo = () => {
                                         }}
                                     ></div>
                                     <div className="vn_title">
-                                        Event Location
+                                        Gig Location
                                     </div>
                                     <div class="vn_desc">
-                                        360 Hampton Dr, Venice, CA 90291
+                                        Miami Beach 1984, Miami, FL
                                     </div>
                                 </div>
                             </div>
