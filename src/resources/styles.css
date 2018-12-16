@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.font_metal {
+.font_righteous {
     font-family: 'Righteous', sans-serif;
 }
 
@@ -16,10 +16,10 @@ body {
     background: #ffffff;
 }
 .bck_red {
-    background: #ff4800;
+    background: #ff0000;
 }
 .bck_yellow {
-    background: #ffa800;
+    background: #ffd900;
 }
 
 .iconImage {
@@ -118,7 +118,7 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
+    background: #ff00007e;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -127,13 +127,13 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: #d900007c;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
     font-size: 70px;
-    border-right: 1px solid #F44336;
+    border-right: 1px solid rgb(244, 54, 54);
     margin-right: 14px;
     padding-right: 49px;
 }
