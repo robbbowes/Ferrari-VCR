@@ -1,3 +1,3 @@
-#About this project#
+#About this project
 
-A fairly simple music venue project to refresh and consolidate React knowledge
+A fairly simple time travelling ferrari website
