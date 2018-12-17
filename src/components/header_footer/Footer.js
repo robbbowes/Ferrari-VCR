@@ -3,9 +3,9 @@ import Fade from 'react-reveal/Fade';
 
 const Footer = () => {
     return (
-        <footer className="bck_red">
+        <footer className="bck_black">
             <Fade delay={500}>
-                <div className="font_righteous footer_logo_venue">Ferrari VCR</div>
+                <div className="font_righteous footer_logo_venue magenta_cyan">Ferrari VCR</div>
                 <div className="footer_copyright">
                     Ferrari VCR 2018. All rights reserved.
                 </div>

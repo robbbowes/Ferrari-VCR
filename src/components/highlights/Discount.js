@@ -47,7 +47,7 @@ class Discount extends Component {
                             </p>                            
                             <MyButton
                                 text="Buy tickets"
-                                bck="#ffae00"
+                                bck="magenta"
                                 color="#ffffff"
                                 link="https://www.youtube.com/watch?v=NzScCDvWvYE"
                             />
