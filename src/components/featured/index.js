@@ -8,9 +8,9 @@ const Featured = () => {
 
             <Carousel/>
             
-            <div className="artist_name">
+            <div className="artist_name font_righteous">
                 <div className="wrapper">
-                    Carpenter Brut
+                    Back To 1984
                 </div>
 
             </div>

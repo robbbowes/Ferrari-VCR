@@ -14,7 +14,7 @@ const VenueInfo = () => {
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
-                                    <div className="vn_icon_square bck_yellow"></div>
+                                    <div className="vn_icon_square bck_cyan"></div>
                                     <div
                                         className="vn_icon"
                                         style={{
@@ -36,7 +36,7 @@ const VenueInfo = () => {
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
-                                    <div className="vn_icon_square bck_red"></div>
+                                    <div className="vn_icon_square bck_magenta"></div>
                                     <div
                                         className="vn_icon"
                                         style={{

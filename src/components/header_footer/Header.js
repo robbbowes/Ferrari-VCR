@@ -50,7 +50,7 @@ class Header extends Component {
                 <Toolbar>
 
                     <div className="header_logo">
-                        <div className="font_righteous header_logo_venue">Ferrari VCR</div>
+                        <div className="font_righteous header_logo_ferrari_vcr cyan_magenta">Ferrari VCR</div>
                         <div className="header_logo_title">Time Travel Tickets</div>
                     </div>
 

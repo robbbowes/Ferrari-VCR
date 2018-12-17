@@ -8,9 +8,9 @@ class Pricing extends Component {
     state = {
         prices: [100, 250, 150],
         positions: ['Behind Driver', 'Shotgun', 'Back Seat'],
-        desc: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        desc: ['You get to travel back to the 80s in style, but have no say on what goes on the tapedeck.',
+            'Riding in style.  Full access to top quality VHS tapes and the chance to offer suggestions on what to play on the ride',
+            'Travel to the 80s in style, more leg room than behind the driver - I have long legs.'
         ],
         linkto: ['#', '#', '#'],
         delay: [500, 0, 500],

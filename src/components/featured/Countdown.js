@@ -42,7 +42,7 @@ class Countdown extends Component {
                 <div>
                     <div className="countdown_wrapper">
                         <div className="countdown_top">
-                            Take Me Back To 1984
+                            We're going back...
                         </div>
                         <div className="countdown_bottom">
                         <div className="countdown_item">
