@@ -1,10 +1,13 @@
 import React from 'react';
 import Slider from "react-slick";
 
-import slide_one_synth from '../../resources/images/slide_1_synth.jpg';
-import slide_two_synth from '../../resources/images/slide_2_synth.jpg';
-import slide_three_synth from '../../resources/images/slide_3_synth.jpg';
-import slide_four_synth from '../../resources/images/slide_4_synth.jpg';
+import slide_one_synth from '../../resources/images/ciaran-o-brien-769402-unsplash.jpg';
+// Photo by Ciaran O'Brien on Unsplash
+import slide_two_synth from '../../resources/images/viktor-juric-1044666-unsplash.jpg';
+// Photo by Viktor Juric on Unsplash
+import slide_three_synth from '../../resources/images/ryan-tang-273380-unsplash.jpg';
+// Photo by Ryan Tang on Unsplash
+
 
 const Carousel = () => {
 
@@ -51,17 +54,6 @@ const Carousel = () => {
                         className="carousel_image"
                         style={{
                             background: `url(${slide_three_synth})`,
-                            height: `${window.innerHeight}px`
-                        }}
-                    >
-                    </div>
-                </div>
-
-                <div>
-                    <div
-                        className="carousel_image"
-                        style={{
-                            background: `url(${slide_four_synth})`,
                             height: `${window.innerHeight}px`
                         }}
                     >
