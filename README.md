@@ -1,7 +1,11 @@
 About this project:
+A fairly simple React website, whilst it's not particularly packed with funtionality it served as a dive back into JavaScript and React and my first time using react-reveal and material-ui.
 
-A simple time-travelling Ferrari website.  Not particularly packed with funtionality but a dive back into JavaScript and React after quite a while.
+Images used courtesy of:
+Ciaran O'Brien, Viktor Juric, and Ryan Tang on Unsplash
 
 What I'd change:
-
-The website looks crummy on mobile - I'll try and come back to a fix this or bootstrap it so it's fully responsive when I have my CSS knowledge under my belt.
++ It's unfortunately not responsive, this is something that I will definitely have to come back to and fix - ideally by revamping the css entirely and using bootstrap which would also serve as a learning process.
++ The carousel jsx could be cleaned up.
++ Style the sidebar
++ Make it look more 80s/outrun-esque
